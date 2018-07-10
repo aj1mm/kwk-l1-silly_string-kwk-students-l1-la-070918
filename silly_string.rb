@@ -25,7 +25,7 @@ big_word = "supercalifragilisticexpialidocious"
 
 letter_count = big_word # Put a . after big_word and use a String method.
 
-puts "There are #{3} in #{supercalifragilisticexpialidocious}"
+puts "There are #{30} in #{supercalifragilisticexpialidocious}".length
 
 # Challenge 5: Add "wow" and "mom" to big_word
 
@@ -39,7 +39,7 @@ puts "There are now #{6} in #{wowmom}"
 
 proper_sentence = "i really like programming." # Put a . after the string to capitalize it properly.
 
-puts proper_sentence "I really like programming"
+puts proper_sentence "I really like programming".capitalize
 
 # Challenge 7: String Switcheroo
 sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples and acorns and artichokes all around Athens, amazing!"
@@ -48,4 +48,4 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 sentence = sentence.gsub("A","O").gsub("a","o")
 
-puts sentence"Ostaunding oordvarks, orguobly on oncient onimol, olwoys ote opples ond ocarns ond ortichakes oll oraund Othens, omozing!"
+puts sentence"Ostaunding oordvarks, orguobly on oncient onimol, olwoys ote opples ond ocarns ond ortichakes oll oraund Othens, omozing!".gsub("A","O").gsub("a","o")
